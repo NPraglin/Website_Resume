@@ -16,39 +16,40 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ALLOW ME TO <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              My name is Nathan Praglin and I am a life-long learner.
               <br />
-              <br />I am fluent in classics like
+              <br />After 5 years in the Marine Corps, I chose to pursue my passion in technology. 
+              <br />
+              <br />I am constantly expanding my knowledge base, but my two favorite programming languages are 
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Javascript and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I am a skilled front-end, and back-end developer focusing on &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                 <b className="purple">Full-Stack Development </b> {/* and
                 also in areas related to{" "}
                 <b className="purple">
                   Deep Learning and Natural Launguage Processing.
-                </b>
+                </b> */}
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+              I like to stay modernized, which is why I've incorporated 
+              {/* <b className="purple"> Node.js</b> and
+              <i> */}
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript Libraries and Frameworks
                 </b>
-              </i>
+              {/* </i> */}
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Express.js, React.js, and Node.js</b>
               </i>
             </p>
           </Col>
@@ -67,7 +68,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/NPraglin"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/NathanPraglin"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/nathan-praglin-494ba1178/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href=" "
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

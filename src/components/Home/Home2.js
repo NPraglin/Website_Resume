@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import desk_photo from "../../Assets/Projects/desk.jpeg";
 
 function Home2() {
   return (
@@ -21,21 +22,11 @@ function Home2() {
             <p className="home-about-body">
               My name is Nathan Praglin and I am a life-long learner.
               <br />
-              <br />After 5 years in the Marine Corps, I chose to pursue my passion in technology. 
+              <br />After 6 years working in cyber intelligence, I chose to switch my focus to coding!
               <br />
               <br />I am constantly expanding my knowledge base, but my two favorite programming languages are 
               <i>
-                <b className="purple"> Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              I am a skilled front-end, and back-end developer focusing on &nbsp;
-              <i>
-                 <b className="purple">Full-Stack Development </b> {/* and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b> */}
+                <b className="purple"> JavaScript and Python. </b>
               </i>
               <br />
               <br />
@@ -44,18 +35,18 @@ function Home2() {
               <i> */}
                 <b className="purple">
                   {" "}
-                  Modern Javascript Libraries and Frameworks
+                  Modern JavaScript Libraries and Frameworks
                 </b>
               {/* </i> */}
               &nbsp; like
               <i>
-                <b className="purple"> Express.js, React.js, and Node.js</b>
+                <b className="purple"> Express, React, and Node.</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={desk_photo} className="img-fluid rounded-circle" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

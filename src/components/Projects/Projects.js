@@ -15,15 +15,15 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I manage.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={location}
               isBlog={false}
-              title="Trav-e-Location"
-              description="A web-based React application where users can sign up, and post their favorite travel spots! Using Google's Map API, users can input the actual location of where their favorite travel spot is located"
+              title="WorkByte"
+              description="A web-based React application where users can sign up, and and rate rentable office-spaces! Using Google's Map API, users can input the actual location of the office. As a developer, I'm often traveling and searching for a good work environment. This application helps coders around the world."
               link=""
               linktwo="https://github.com/NPraglin/symmetrical-funicular"
             />
@@ -31,10 +31,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={'https://picsum.photos/250'}
+              isBlog={false}
+              title="Lorem Picsum Clone"
+              description="Developed as a project for a coding bootcamp, my random photo generator actually became quite useful. My web-app utilizes Lorem Ipsum's random photo generator. Enter your desired height/width into the input parameters and a random photo will be generated. Great for testing blogs, user profiles, or anything that needs placeholder images."
+              link=""
+              linktwo="https://github.com/NPraglin/lorem-picsum-api"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={Blog_pic}
               isBlog={true}
-              title="Collaborative Blog"
-              description="A web-based Python/Django blog. Fully functional user registration, login, and posting. Feel free to sign up and post some inspiring knowledge, or helpful tech tips! This project emerged initally as a method to practice deploying an application. I'm glad to have turned it into an active blog!"
+              title="Chess Blog"
+              description="A web-based Python/Django blog I developed to practice deploying an application. Fully functional user registration, login, and posting. I'm a passionate Chess player, feel free to sign up and post some information! Or send me a game request on Chess.com, my username is NPraglin."
               link="http://nathansdjangoapp.herokuapp.com/"
               linktwo="https://github.com/NPraglin/PythonDjangoWebBlog"
             />

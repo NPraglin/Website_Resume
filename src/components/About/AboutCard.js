@@ -20,7 +20,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            There isn't wifi in a forest, but I guarantee you'll find a better connection.{" "}
+            Find a way to live life doing what you love. It makes it easier to love what you do.{" "}
           </p>
           <footer className="blockquote-footer"></footer>
         </blockquote>
